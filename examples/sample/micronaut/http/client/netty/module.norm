@@ -1,0 +1,10 @@
+Module module() {
+  return module(
+    name: "sample.micronaut.http.client.netty",
+    version: 1,
+    dependencies: [
+      dependency(repository: "github", name: "micronaut.http.client.netty", version: 4),
+      dependency(repository: "github", name: "micronaut.http.client", version: 3)
+    ]
+  )
+}

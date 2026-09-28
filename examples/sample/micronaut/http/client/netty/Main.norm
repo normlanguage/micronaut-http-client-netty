@@ -1,4 +1,4 @@
-package micronaut.http.client.netty
+package sample.micronaut.http.client.netty
 
 import micronaut.http.client.HttpClient
 import micronaut.http.client.httpClientCreate

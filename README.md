@@ -2,6 +2,6 @@
 
 [English](README.md) | [简体中文](README.zh-CN.md)
 
-`micronaut.http.client.netty@3` provides the Netty implementation of Micronaut HTTP Client 5.1.13 and depends on the public API of `micronaut.http.client@3`. A runnable example is in `micronaut/http/client/netty/Main.norm`.
+The [module declaration](micronaut/http/client/netty/module.norm) binds Micronaut HTTP Client 5.1.13's Netty implementation and declares its HTTP Client API dependency. The [acceptance example](examples/sample/micronaut/http/client/netty/Main.norm) checks runtime client construction.
 
 [Sample ownership](samples/README.md).
