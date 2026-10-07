@@ -3,8 +3,9 @@ Module module() {
     name: "sample.micronaut.http.client.netty",
     version: 1,
     dependencies: [
-      dependency(repository: "github", name: "micronaut.http.client.netty", version: 4),
-      dependency(repository: "github", name: "micronaut.http.client", version: 3)
+      dependency(repository: "norm", name: "java.base", version: 1),
+      dependency(repository: "github", name: "micronaut.http.client.netty", version: 5),
+      dependency(repository: "github", name: "micronaut.http.client", version: 4)
     ]
   )
 }
