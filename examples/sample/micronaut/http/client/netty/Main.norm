@@ -2,10 +2,10 @@ package sample.micronaut.http.client.netty
 
 import micronaut.http.client.HttpClient
 import micronaut.http.client.httpClientCreate
-import std.http.Uri
+import java.base.net.uriCreate
 
 Void main() {
-  HttpClient? client = httpClientCreate(arg0: Uri(value: "http://localhost"))
+  HttpClient? client = httpClientCreate(arg0: uriCreate("http://localhost")!!.toURL())
   client?.close()
   printLine("Micronaut Netty HTTP client")
 }
