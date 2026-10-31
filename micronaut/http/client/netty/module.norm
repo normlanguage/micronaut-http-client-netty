@@ -1,11 +1,11 @@
 Module module() {
   return module(
     name: "micronaut.http.client.netty",
-    version: 5,
+    version: 6,
     dependencies: [
-      dependency(repository: "github", name: "micronaut.http.client", version: 4),
-      dependency(repository: "github", name: "micronaut.json", version: 4),
-      dependency(repository: "github", name: "micronaut.serde.jackson", version: 5)
+      dependency(repository: "github", name: "micronaut.http.client", version: 6),
+      dependency(repository: "github", name: "micronaut.json", version: 6),
+      dependency(repository: "github", name: "micronaut.serde.jackson", version: 9)
     ],
     binding: jarBinding(
       target: mavenJar(
