@@ -4,7 +4,7 @@ Module module() {
     version: 1,
     dependencies: [
       dependency(repository: "norm", name: "java.base", version: 1),
-      dependency(repository: "github", name: "micronaut.http.client.netty", version: 6),
+      dependency(repository: "github", name: "micronaut.http.client.netty", version: 7),
       dependency(repository: "github", name: "micronaut.http.client", version: 6)
     ]
   )
